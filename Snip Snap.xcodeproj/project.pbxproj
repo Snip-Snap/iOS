@@ -10,9 +10,9 @@
 		01989DF5240B6FF40044549D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01989DF4240B6FF40044549D /* AppDelegate.swift */; };
 		01989DF7240B6FF40044549D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01989DF6240B6FF40044549D /* SceneDelegate.swift */; };
 		01989DF9240B6FF40044549D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01989DF8240B6FF40044549D /* ViewController.swift */; };
-		01989DFC240B6FF40044549D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01989DFA240B6FF40044549D /* Main.storyboard */; };
+		01989DFC240B6FF40044549D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01989DFA240B6FF40044549D /* LaunchScreen.storyboard */; };
 		01989DFE240B6FF60044549D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01989DFD240B6FF60044549D /* Assets.xcassets */; };
-		01989E01240B6FF60044549D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01989DFF240B6FF60044549D /* LaunchScreen.storyboard */; };
+		01989E01240B6FF60044549D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01989DFF240B6FF60044549D /* Main.storyboard */; };
 		01989E0C240B6FF60044549D /* Snip_SnapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01989E0B240B6FF60044549D /* Snip_SnapTests.swift */; };
 		01989E17240B6FF60044549D /* Snip_SnapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01989E16240B6FF60044549D /* Snip_SnapUITests.swift */; };
 /* End PBXBuildFile section */
@@ -39,9 +39,9 @@
 		01989DF4240B6FF40044549D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01989DF6240B6FF40044549D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		01989DF8240B6FF40044549D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		01989DFB240B6FF40044549D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01989DFB240B6FF40044549D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01989DFD240B6FF60044549D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		01989E00240B6FF60044549D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01989E00240B6FF60044549D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01989E02240B6FF60044549D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01989E07240B6FF60044549D /* Snip SnapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snip SnapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01989E0B240B6FF60044549D /* Snip_SnapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snip_SnapTests.swift; sourceTree = "<group>"; };
@@ -102,9 +102,9 @@
 				01989DF4240B6FF40044549D /* AppDelegate.swift */,
 				01989DF6240B6FF40044549D /* SceneDelegate.swift */,
 				01989DF8240B6FF40044549D /* ViewController.swift */,
-				01989DFA240B6FF40044549D /* Main.storyboard */,
+				01989DFA240B6FF40044549D /* LaunchScreen.storyboard */,
+				01989DFF240B6FF60044549D /* Main.storyboard */,
 				01989DFD240B6FF60044549D /* Assets.xcassets */,
-				01989DFF240B6FF60044549D /* LaunchScreen.storyboard */,
 				01989E02240B6FF60044549D /* Info.plist */,
 			);
 			path = "Snip Snap";
@@ -190,6 +190,9 @@
 		01989DE9240B6FF40044549D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					snip,
+				);
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Snip Snap";
@@ -232,9 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01989E01240B6FF60044549D /* LaunchScreen.storyboard in Resources */,
+				01989E01240B6FF60044549D /* Main.storyboard in Resources */,
 				01989DFE240B6FF60044549D /* Assets.xcassets in Resources */,
-				01989DFC240B6FF40044549D /* Main.storyboard in Resources */,
+				01989DFC240B6FF40044549D /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,20 +300,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		01989DFA240B6FF40044549D /* Main.storyboard */ = {
+		01989DFA240B6FF40044549D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				01989DFB240B6FF40044549D /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		01989DFF240B6FF60044549D /* LaunchScreen.storyboard */ = {
+		01989DFF240B6FF60044549D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				01989E00240B6FF60044549D /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -437,6 +440,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HJT8B54KL;
 				INFOPLIST_FILE = "Snip Snap/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HJT8B54KL;
 				INFOPLIST_FILE = "Snip Snap/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
