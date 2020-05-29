@@ -13,10 +13,9 @@ to the graphql login mutation.
 
 - [ ] Display a message if the login was not successful. 
 
-![Login](./display_images/login_screen.png)
-<!--
-<img src="./display_images/login_screen.png" width="500" height="300"/>
--->
+<p align="middle">
+<img src="./display_images/login_screen.png" width="50%" align="middle" />
+</p>
 
 ## Shops
 
@@ -31,10 +30,10 @@ Last, I setup the tabbar at the bottom so that it displays which bar we are on.
 - [ ] Make the search bar work.
 - [ ] add additional filters.
 
-![Shops](./display_images/shops.png)
-<!--
-<img src="./display_images/shops.png" width="500" height="300"/>
--->
+<p align="middle">
+<img src="./display_images/shops.png" width="50%" />
+</p>
+
 ## Appointments 
 
 This was the toughest screen to make and the messiest because there are a lot of parts to it. 
@@ -48,7 +47,7 @@ actionsheet for all barbers at a shop.
 - [ ] Add navigation to another screen when the appointment is successfully created. 
 
 
-<p float="left">
+<p align="middle">
 	<img src="./display_images/appt.png" width="45%" />
 	<img src="./display_images/appt2.png" width="45%" />
 </p>
