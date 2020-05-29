@@ -1,0 +1,93 @@
+
+mutation signupClient($cli: NewClient!) {
+  signupClient(input: $cli){
+      ...ResponseDetails
+  }
+}
+
+
+
+mutation login($login: Login!){
+    login(input: $login){
+        ...ResponseDetails
+    }
+}
+fragment ResponseDetails on Response{
+    token
+}
+
+mutation makeAppt($data: ApptData!){
+    makeAppt(input: $data){
+        ...ResDetails
+    }
+}
+fragment ResDetails on Apptinsert{
+    okay
+    id
+}
+
+
+query allshops{
+    allshops{
+        ...ShopDetails
+    }
+}
+fragment ShopDetails on Shop{
+    shopID
+    ShopName
+    StreetAddr
+    City
+    State
+    Country
+    AreaCode
+    Latitude
+    Longitude
+    Rating
+}
+
+
+query services{
+    services{
+        ...ServiceDetails
+    }
+}
+
+fragment ServiceDetails on Service{
+    serviceID
+    serviceName
+    price
+    customDuration
+}
+
+query weeklyappt($shopid: Shopidentifier!){
+    weeklyAppt(input: $shopid){
+        ...ApptDetails
+    }
+}
+fragment ApptDetails on AppointmentWeek{
+    apptID
+    barberID
+    apptDate
+    startTime
+    endTime
+}
+query bsp($shopid: Shopidentifier!){
+    barbersAtShop(input: $shopid){
+        ...BSPDetails
+    }
+}
+fragment BSPDetails on AllBarbersAtShop{
+    barberID
+    firstName
+    lastName
+}
+
+query receipt($data: Receiptinput!){
+  receipt(input: $data){
+    ...URLdets
+  }
+}
+
+fragment URLdets on PdfLink{
+    url
+}

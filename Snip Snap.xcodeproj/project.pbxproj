@@ -3,18 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0107C0A52453F88F001F5C3D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0107C0A42453F88F001F5C3D /* NetworkManager.swift */; };
+		0119267F246458AF00EC2C68 /* ShopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0119267E246458AF00EC2C68 /* ShopTableViewCell.swift */; };
+		0119268124645FAB00EC2C68 /* ShopListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0119268024645FAB00EC2C68 /* ShopListViewController.swift */; };
+		0119268324659B0600EC2C68 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0119268224659B0600EC2C68 /* RoundedButton.swift */; };
+		011926C12466573900EC2C68 /* UIView-gradientext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011926C02466573900EC2C68 /* UIView-gradientext.swift */; };
+		012530162462DC4C00C7F784 /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = 012530152462DC4C00C7F784 /* CalendarKit */; };
+		012530192462DDDE00C7F784 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 012530182462DDDE00C7F784 /* Apollo */; };
+		012E1289246A9AE900CA749C /* Appointment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012E1288246A9AE900CA749C /* Appointment.storyboard */; };
+		012E128B246A9B9400CA749C /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E128A246A9B9400CA749C /* AppointmentViewController.swift */; };
+		012E128D246D12F800CA749C /* AppointmentDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E128C246D12F800CA749C /* AppointmentDateCollectionViewCell.swift */; };
+		012E128F246E35CC00CA749C /* TimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E128E246E35CC00CA749C /* TimeCollectionViewCell.swift */; };
+		012E1293246E84C500CA749C /* ServiceList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012E1292246E84C500CA749C /* ServiceList.storyboard */; };
+		012E1295246E9F1E00CA749C /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E1294246E9F1E00CA749C /* ServicesViewController.swift */; };
+		012E1297246EA11E00CA749C /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E1296246EA11E00CA749C /* ServicesTableViewCell.swift */; };
+		013B85982463F60400285DC3 /* list.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013B85972463F60400285DC3 /* list.storyboard */; };
+		01429045246761E600F722EB /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = 01429044246761E600F722EB /* Cosmos */; };
+		014A70F724514292009F7464 /* register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014A70F624514292009F7464 /* register.storyboard */; };
+		0157BFC52421506900CBF7DB /* barbershop.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 0157BFC42421506900CBF7DB /* barbershop.graphql */; };
+		0181C9AC243DDF7D00648C0A /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181C9AB243DDF7D00648C0A /* CalendarViewController.swift */; };
 		01989DF5240B6FF40044549D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01989DF4240B6FF40044549D /* AppDelegate.swift */; };
 		01989DF7240B6FF40044549D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01989DF6240B6FF40044549D /* SceneDelegate.swift */; };
-		01989DF9240B6FF40044549D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01989DF8240B6FF40044549D /* ViewController.swift */; };
+		01989DF9240B6FF40044549D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01989DF8240B6FF40044549D /* LoginController.swift */; };
 		01989DFC240B6FF40044549D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01989DFA240B6FF40044549D /* LaunchScreen.storyboard */; };
 		01989DFE240B6FF60044549D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01989DFD240B6FF60044549D /* Assets.xcassets */; };
 		01989E01240B6FF60044549D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01989DFF240B6FF60044549D /* Main.storyboard */; };
 		01989E0C240B6FF60044549D /* Snip_SnapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01989E0B240B6FF60044549D /* Snip_SnapTests.swift */; };
 		01989E17240B6FF60044549D /* Snip_SnapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01989E16240B6FF60044549D /* Snip_SnapUITests.swift */; };
+		01989E2B24183CF20044549D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01989E2A24183CF20044549D /* LoginView.swift */; };
+		01A3D6F0245BAC33003C722A /* shops.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A3D6EF245BAC33003C722A /* shops.storyboard */; };
+		01A3D6F2245BAF46003C722A /* ShopMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A3D6F1245BAF46003C722A /* ShopMapViewController.swift */; };
+		01AF53282470CF0200F91EF9 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AF53272470CF0200F91EF9 /* History.storyboard */; };
+		01AF532A2470D03600F91EF9 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF53292470D03600F91EF9 /* HistoryViewController.swift */; };
+		01AF532C24714F0100F91EF9 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF532B24714F0100F91EF9 /* HistoryTableViewCell.swift */; };
+		01AF532E2471D01100F91EF9 /* final.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AF532D2471D01100F91EF9 /* final.storyboard */; };
+		01B8FACD2468F0E100DC2FA8 /* ShopDets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B8FACC2468F0E100DC2FA8 /* ShopDets.swift */; };
+		01DB5FD1244F12A500DB3636 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DB5FD0244F12A500DB3636 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +63,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0107C0A42453F88F001F5C3D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0119267E246458AF00EC2C68 /* ShopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTableViewCell.swift; sourceTree = "<group>"; };
+		0119268024645FAB00EC2C68 /* ShopListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListViewController.swift; sourceTree = "<group>"; };
+		0119268224659B0600EC2C68 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		011926C02466573900EC2C68 /* UIView-gradientext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-gradientext.swift"; sourceTree = "<group>"; };
+		012E1288246A9AE900CA749C /* Appointment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Appointment.storyboard; sourceTree = "<group>"; };
+		012E128A246A9B9400CA749C /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		012E128C246D12F800CA749C /* AppointmentDateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDateCollectionViewCell.swift; sourceTree = "<group>"; };
+		012E128E246E35CC00CA749C /* TimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		012E1292246E84C500CA749C /* ServiceList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ServiceList.storyboard; sourceTree = "<group>"; };
+		012E1294246E9F1E00CA749C /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		012E1296246EA11E00CA749C /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
+		013B85972463F60400285DC3 /* list.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = list.storyboard; sourceTree = "<group>"; };
+		014A70F624514292009F7464 /* register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = register.storyboard; sourceTree = "<group>"; };
+		0157BFC324214CF900CBF7DB /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		0157BFC42421506900CBF7DB /* barbershop.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = barbershop.graphql; sourceTree = "<group>"; };
+		0181C9AB243DDF7D00648C0A /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		01989DF1240B6FF40044549D /* Snip Snap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snip Snap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01989DF4240B6FF40044549D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01989DF6240B6FF40044549D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		01989DF8240B6FF40044549D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01989DF8240B6FF40044549D /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		01989DFB240B6FF40044549D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01989DFD240B6FF60044549D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01989E00240B6FF60044549D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +94,15 @@
 		01989E12240B6FF60044549D /* Snip SnapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snip SnapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01989E16240B6FF60044549D /* Snip_SnapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snip_SnapUITests.swift; sourceTree = "<group>"; };
 		01989E18240B6FF60044549D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01989E2A24183CF20044549D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		01A3D6EF245BAC33003C722A /* shops.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = shops.storyboard; sourceTree = "<group>"; };
+		01A3D6F1245BAF46003C722A /* ShopMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopMapViewController.swift; sourceTree = "<group>"; };
+		01AF53272470CF0200F91EF9 /* History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		01AF53292470D03600F91EF9 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		01AF532B24714F0100F91EF9 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		01AF532D2471D01100F91EF9 /* final.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = final.storyboard; sourceTree = "<group>"; };
+		01B8FACC2468F0E100DC2FA8 /* ShopDets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDets.swift; sourceTree = "<group>"; };
+		01DB5FD0244F12A500DB3636 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +110,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012530162462DC4C00C7F784 /* CalendarKit in Frameworks */,
+				012530192462DDDE00C7F784 /* Apollo in Frameworks */,
+				01429045246761E600F722EB /* Cosmos in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +133,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0107C0A02451507B001F5C3D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				01989DF8240B6FF40044549D /* LoginController.swift */,
+				0181C9AB243DDF7D00648C0A /* CalendarViewController.swift */,
+				01A3D6F1245BAF46003C722A /* ShopMapViewController.swift */,
+				0119267E246458AF00EC2C68 /* ShopTableViewCell.swift */,
+				0119268024645FAB00EC2C68 /* ShopListViewController.swift */,
+				012E128A246A9B9400CA749C /* AppointmentViewController.swift */,
+				012E128C246D12F800CA749C /* AppointmentDateCollectionViewCell.swift */,
+				012E128E246E35CC00CA749C /* TimeCollectionViewCell.swift */,
+				012E1296246EA11E00CA749C /* ServicesTableViewCell.swift */,
+				012E1294246E9F1E00CA749C /* ServicesViewController.swift */,
+				01AF53292470D03600F91EF9 /* HistoryViewController.swift */,
+				01AF532B24714F0100F91EF9 /* HistoryTableViewCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0107C0A1245150BD001F5C3D /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				01DB5FD0244F12A500DB3636 /* API.swift */,
+				0157BFC324214CF900CBF7DB /* schema.json */,
+				0157BFC42421506900CBF7DB /* barbershop.graphql */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		0107C0A224515216001F5C3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01989E2A24183CF20044549D /* LoginView.swift */,
+				0119268224659B0600EC2C68 /* RoundedButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0107C0A32453F869001F5C3D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0107C0A42453F88F001F5C3D /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		011926BF246654D600EC2C68 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				011926C02466573900EC2C68 /* UIView-gradientext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		017F576B245405CC00C6AC51 /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				01989DF4240B6FF40044549D /* AppDelegate.swift */,
+				01989DF6240B6FF40044549D /* SceneDelegate.swift */,
+			);
+			path = "Supporting FIles";
+			sourceTree = "<group>";
+		};
 		01989DE8240B6FF40044549D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +203,7 @@
 				01989E0A240B6FF60044549D /* Snip SnapTests */,
 				01989E15240B6FF60044549D /* Snip SnapUITests */,
 				01989DF2240B6FF40044549D /* Products */,
+				9FF9C5A3E75841B173C98C99 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +220,16 @@
 		01989DF3240B6FF40044549D /* Snip Snap */ = {
 			isa = PBXGroup;
 			children = (
-				01989DF4240B6FF40044549D /* AppDelegate.swift */,
-				01989DF6240B6FF40044549D /* SceneDelegate.swift */,
-				01989DF8240B6FF40044549D /* ViewController.swift */,
-				01989DFA240B6FF40044549D /* LaunchScreen.storyboard */,
-				01989DFF240B6FF60044549D /* Main.storyboard */,
-				01989DFD240B6FF60044549D /* Assets.xcassets */,
 				01989E02240B6FF60044549D /* Info.plist */,
+				01989DFD240B6FF60044549D /* Assets.xcassets */,
+				011926BF246654D600EC2C68 /* Extensions */,
+				0107C0A1245150BD001F5C3D /* GraphQL */,
+				0107C0A32453F869001F5C3D /* Networking */,
+				01AF5D25245108AC0046AE5B /* Screens */,
+				017F576B245405CC00C6AC51 /* Supporting FIles */,
+				01B8FAC724686D1100DC2FA8 /* Models */,
+				0107C0A02451507B001F5C3D /* ViewController */,
+				0107C0A224515216001F5C3D /* Views */,
 			);
 			path = "Snip Snap";
 			sourceTree = "<group>";
@@ -128,6 +252,37 @@
 			path = "Snip SnapUITests";
 			sourceTree = "<group>";
 		};
+		01AF5D25245108AC0046AE5B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				01989DFA240B6FF40044549D /* LaunchScreen.storyboard */,
+				01989DFF240B6FF60044549D /* Main.storyboard */,
+				014A70F624514292009F7464 /* register.storyboard */,
+				01A3D6EF245BAC33003C722A /* shops.storyboard */,
+				013B85972463F60400285DC3 /* list.storyboard */,
+				012E1288246A9AE900CA749C /* Appointment.storyboard */,
+				012E1292246E84C500CA749C /* ServiceList.storyboard */,
+				01AF53272470CF0200F91EF9 /* History.storyboard */,
+				01AF532D2471D01100F91EF9 /* final.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		01B8FAC724686D1100DC2FA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01B8FACC2468F0E100DC2FA8 /* ShopDets.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9FF9C5A3E75841B173C98C99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +290,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01989E1B240B6FF60044549D /* Build configuration list for PBXNativeTarget "Snip Snap" */;
 			buildPhases = (
+				0157BFC024214A5600CBF7DB /* Apollo CLI */,
 				01989DED240B6FF40044549D /* Sources */,
 				01989DEE240B6FF40044549D /* Frameworks */,
 				01989DEF240B6FF40044549D /* Resources */,
@@ -144,6 +300,11 @@
 			dependencies = (
 			);
 			name = "Snip Snap";
+			packageProductDependencies = (
+				012530152462DC4C00C7F784 /* CalendarKit */,
+				012530182462DDDE00C7F784 /* Apollo */,
+				01429044246761E600F722EB /* Cosmos */,
+			);
 			productName = "Snip Snap";
 			productReference = 01989DF1240B6FF40044549D /* Snip Snap.app */;
 			productType = "com.apple.product-type.application";
@@ -219,6 +380,11 @@
 				Base,
 			);
 			mainGroup = 01989DE8240B6FF40044549D;
+			packageReferences = (
+				012530142462DC4C00C7F784 /* XCRemoteSwiftPackageReference "CalendarKit" */,
+				012530172462DDDE00C7F784 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				01429043246761E600F722EB /* XCRemoteSwiftPackageReference "Cosmos" */,
+			);
 			productRefGroup = 01989DF2240B6FF40044549D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,9 +401,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A3D6F0245BAC33003C722A /* shops.storyboard in Resources */,
+				0157BFC52421506900CBF7DB /* barbershop.graphql in Resources */,
+				013B85982463F60400285DC3 /* list.storyboard in Resources */,
+				01AF53282470CF0200F91EF9 /* History.storyboard in Resources */,
 				01989E01240B6FF60044549D /* Main.storyboard in Resources */,
+				012E1293246E84C500CA749C /* ServiceList.storyboard in Resources */,
+				012E1289246A9AE900CA749C /* Appointment.storyboard in Resources */,
 				01989DFE240B6FF60044549D /* Assets.xcassets in Resources */,
 				01989DFC240B6FF40044549D /* LaunchScreen.storyboard in Resources */,
+				01AF532E2471D01100F91EF9 /* final.storyboard in Resources */,
+				014A70F724514292009F7464 /* register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +431,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0157BFC024214A5600CBF7DB /* Apollo CLI */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Apollo CLI";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"./GraphQL/schema.json\" GraphQL/API.swift\n#\"${SCRIPT_PATH}\"/run-bundled-codegen.sh schema:download --endpoint=\"http://ec2-18-144-86-87.us-west-1.compute.amazonaws.com:8080/query\" GraphQL/schema.json --header=\"Authorization: <TOKEN>\" \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		01989DED240B6FF40044549D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01989DF9240B6FF40044549D /* ViewController.swift in Sources */,
+				012E128B246A9B9400CA749C /* AppointmentViewController.swift in Sources */,
+				01989DF9240B6FF40044549D /* LoginController.swift in Sources */,
+				012E128D246D12F800CA749C /* AppointmentDateCollectionViewCell.swift in Sources */,
 				01989DF5240B6FF40044549D /* AppDelegate.swift in Sources */,
+				0119267F246458AF00EC2C68 /* ShopTableViewCell.swift in Sources */,
+				01989E2B24183CF20044549D /* LoginView.swift in Sources */,
 				01989DF7240B6FF40044549D /* SceneDelegate.swift in Sources */,
+				012E1297246EA11E00CA749C /* ServicesTableViewCell.swift in Sources */,
+				012E1295246E9F1E00CA749C /* ServicesViewController.swift in Sources */,
+				0181C9AC243DDF7D00648C0A /* CalendarViewController.swift in Sources */,
+				0119268324659B0600EC2C68 /* RoundedButton.swift in Sources */,
+				01A3D6F2245BAF46003C722A /* ShopMapViewController.swift in Sources */,
+				01B8FACD2468F0E100DC2FA8 /* ShopDets.swift in Sources */,
+				011926C12466573900EC2C68 /* UIView-gradientext.swift in Sources */,
+				01AF532C24714F0100F91EF9 /* HistoryTableViewCell.swift in Sources */,
+				0119268124645FAB00EC2C68 /* ShopListViewController.swift in Sources */,
+				012E128F246E35CC00CA749C /* TimeCollectionViewCell.swift in Sources */,
+				01AF532A2470D03600F91EF9 /* HistoryViewController.swift in Sources */,
+				0107C0A52453F88F001F5C3D /* NetworkManager.swift in Sources */,
+				01DB5FD1244F12A500DB3636 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +581,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,7 +635,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -474,7 +686,6 @@
 		01989E1F240B6FF60044549D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HJT8B54KL;
@@ -496,7 +707,6 @@
 		01989E20240B6FF60044549D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HJT8B54KL;
@@ -518,7 +728,6 @@
 		01989E22240B6FF60044549D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HJT8B54KL;
 				INFOPLIST_FILE = "Snip SnapUITests/Info.plist";
@@ -538,7 +747,6 @@
 		01989E23240B6FF60044549D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HJT8B54KL;
 				INFOPLIST_FILE = "Snip SnapUITests/Info.plist";
@@ -565,7 +773,7 @@
 				01989E1A240B6FF60044549D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		01989E1B240B6FF60044549D /* Build configuration list for PBXNativeTarget "Snip Snap" */ = {
 			isa = XCConfigurationList;
@@ -574,7 +782,7 @@
 				01989E1D240B6FF60044549D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		01989E1E240B6FF60044549D /* Build configuration list for PBXNativeTarget "Snip SnapTests" */ = {
 			isa = XCConfigurationList;
@@ -583,7 +791,7 @@
 				01989E20240B6FF60044549D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		01989E21240B6FF60044549D /* Build configuration list for PBXNativeTarget "Snip SnapUITests" */ = {
 			isa = XCConfigurationList;
@@ -592,9 +800,54 @@
 				01989E23240B6FF60044549D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		012530142462DC4C00C7F784 /* XCRemoteSwiftPackageReference "CalendarKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/richardtop/CalendarKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		012530172462DDDE00C7F784 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.27.1;
+			};
+		};
+		01429043246761E600F722EB /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 21.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		012530152462DC4C00C7F784 /* CalendarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 012530142462DC4C00C7F784 /* XCRemoteSwiftPackageReference "CalendarKit" */;
+			productName = CalendarKit;
+		};
+		012530182462DDDE00C7F784 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 012530172462DDDE00C7F784 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		01429044246761E600F722EB /* Cosmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01429043246761E600F722EB /* XCRemoteSwiftPackageReference "Cosmos" */;
+			productName = Cosmos;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 01989DE9240B6FF40044549D /* Project object */;
 }

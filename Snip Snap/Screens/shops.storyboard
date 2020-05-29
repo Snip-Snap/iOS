@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ePv-aI-MuA">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--shop-->
+        <scene sceneID="48Y-Qb-S3w">
+            <objects>
+                <viewController title="shop" id="ePv-aI-MuA" customClass="ShopMapViewController" customModule="Snip_Snap" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yk0-3a-h1x">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="i8T-BR-IiO">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="T66-cj-D9k">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    </mapView>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aK1-73-LfF">
+                                <rect key="frame" x="0.0" y="44" width="414" height="70"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="f3u-mB-hD6">
+                                        <rect key="frame" x="0.0" y="15" width="414" height="55"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HyG-VV-uYW" customClass="LoginView" customModule="Snip_Snap" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="8" width="334" height="39"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="🔍 Looking For A Barber Shop?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="12H-uY-ce4">
+                                                        <rect key="frame" x="0.0" y="0.0" width="334" height="39"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="12H-uY-ce4" secondAttribute="trailing" id="2bd-Vm-TqO"/>
+                                                    <constraint firstItem="12H-uY-ce4" firstAttribute="top" secondItem="HyG-VV-uYW" secondAttribute="top" id="5eG-32-3EO"/>
+                                                    <constraint firstItem="12H-uY-ce4" firstAttribute="leading" secondItem="HyG-VV-uYW" secondAttribute="leading" id="icM-hR-djE"/>
+                                                    <constraint firstAttribute="bottom" secondItem="12H-uY-ce4" secondAttribute="bottom" id="ptL-cR-nej"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJK-g2-m4e" customClass="RoundButton" customModule="Snip_Snap" customModuleProvider="target">
+                                                <rect key="frame" x="358" y="8" width="40" height="39"/>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <state key="normal" image="list.dash" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="Od5-X0-uEP" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="Awm-CC-Aax"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="dJK-g2-m4e" firstAttribute="width" secondItem="HyG-VV-uYW" secondAttribute="width" multiplier="0.12" id="P6K-IG-w7s"/>
+                                        </constraints>
+                                        <edgeInsets key="layoutMargins" top="8" left="16" bottom="8" right="16"/>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="f3u-mB-hD6" firstAttribute="top" secondItem="aK1-73-LfF" secondAttribute="top" constant="15" id="aTv-Sq-7A0"/>
+                                    <constraint firstAttribute="height" constant="70" id="cNo-wW-XHQ"/>
+                                    <constraint firstItem="f3u-mB-hD6" firstAttribute="leading" secondItem="aK1-73-LfF" secondAttribute="leading" id="dH9-Kk-we2"/>
+                                    <constraint firstAttribute="bottom" secondItem="f3u-mB-hD6" secondAttribute="bottom" id="fep-FY-kbz"/>
+                                    <constraint firstAttribute="trailing" secondItem="f3u-mB-hD6" secondAttribute="trailing" id="i1i-zB-LsU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="i8T-BR-IiO" firstAttribute="trailing" secondItem="Yhr-WL-3Ay" secondAttribute="trailing" id="0cC-HY-TVB"/>
+                            <constraint firstItem="i8T-BR-IiO" firstAttribute="top" secondItem="yk0-3a-h1x" secondAttribute="top" id="D1R-1Z-u1L"/>
+                            <constraint firstAttribute="bottom" secondItem="i8T-BR-IiO" secondAttribute="bottom" id="Fgr-Fh-Dh3"/>
+                            <constraint firstItem="aK1-73-LfF" firstAttribute="trailing" secondItem="Yhr-WL-3Ay" secondAttribute="trailing" id="R6X-sp-i2s"/>
+                            <constraint firstItem="aK1-73-LfF" firstAttribute="leading" secondItem="Yhr-WL-3Ay" secondAttribute="leading" id="bIs-xk-amT"/>
+                            <constraint firstItem="i8T-BR-IiO" firstAttribute="leading" secondItem="Yhr-WL-3Ay" secondAttribute="leading" id="gty-gy-xIb"/>
+                            <constraint firstItem="aK1-73-LfF" firstAttribute="top" secondItem="Yhr-WL-3Ay" secondAttribute="top" id="wWc-bR-HVf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Yhr-WL-3Ay"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="T66-cj-D9k" id="ogy-J3-qYt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oHQ-pf-wLh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1229" y="370"/>
+        </scene>
+        <!--list-->
+        <scene sceneID="iD4-1L-UVY">
+            <objects>
+                <viewControllerPlaceholder storyboardName="list" id="Od5-X0-uEP" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cKG-ez-4dN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1709" y="303"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="list.dash" catalog="system" width="128" height="85"/>
+    </resources>
+</document>
