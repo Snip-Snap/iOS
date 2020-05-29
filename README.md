@@ -47,10 +47,8 @@ actionsheet for all barbers at a shop.
 - [ ] Refactor the code because it is all over the place. 
 - [ ] Add navigation to another screen when the appointment is successfully created. 
 
-<!-- ![appt](./display_images/appt.png) ![appt2](./display_images/appt2.png) -->
-![appt](./display_images/appt.png) | ![appt2](./display_images/appt2.png)
 
 <p float="left">
-	<img src="./display_images/appt.png" width="90%" />
-	<img src="./display_images/appt2.png" width="90%" />
+	<img src="./display_images/appt.png" width="50%" />
+	<img src="./display_images/appt2.png" width="50%" />
 </p>
