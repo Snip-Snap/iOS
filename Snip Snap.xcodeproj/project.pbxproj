@@ -68,6 +68,7 @@
 		0119268024645FAB00EC2C68 /* ShopListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListViewController.swift; sourceTree = "<group>"; };
 		0119268224659B0600EC2C68 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		011926C02466573900EC2C68 /* UIView-gradientext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-gradientext.swift"; sourceTree = "<group>"; };
+		0127B78624811B6500F16097 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		012E1288246A9AE900CA749C /* Appointment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Appointment.storyboard; sourceTree = "<group>"; };
 		012E128A246A9B9400CA749C /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
 		012E128C246D12F800CA749C /* AppointmentDateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDateCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -187,6 +188,13 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		0127B78724811EE800F16097 /* display_images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = display_images;
+			sourceTree = "<group>";
+		};
 		017F576B245405CC00C6AC51 /* Supporting FIles */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +207,8 @@
 		01989DE8240B6FF40044549D = {
 			isa = PBXGroup;
 			children = (
+				0127B78724811EE800F16097 /* display_images */,
+				0127B78624811B6500F16097 /* README.md */,
 				01989DF3240B6FF40044549D /* Snip Snap */,
 				01989E0A240B6FF60044549D /* Snip SnapTests */,
 				01989E15240B6FF60044549D /* Snip SnapUITests */,
