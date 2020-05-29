@@ -28,7 +28,6 @@ class ShopListViewController: UIViewController  {
        
         let address = "Bakersfield, CA, USA"
         centerOnLocation(address: address)
-        
         setTabBar()
         
     }
