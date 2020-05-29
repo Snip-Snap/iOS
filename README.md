@@ -49,7 +49,7 @@ actionsheet for all barbers at a shop.
 
 <!-- ![appt](./display_images/appt.png) ![appt2](./display_images/appt2.png) -->
 
-<p align="middle">
-<img src="./display_images/appt.png" />
-<img src="./display_images/shops.png" />
+<p float="left">
+	<img src="./display_images/appt.png" />
+	<img src="./display_images/appt2.png" />
 </p>
