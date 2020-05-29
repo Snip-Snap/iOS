@@ -3,7 +3,7 @@
 I am using apollo iOS to connect to my golang graphql server that is running on aws. 
 The golang graphql is using gqlgen and is connected to a postgreSQL database which is also on aws. 
 
-The design of this application is not mine, it is from a design created on [dribble](https://dribbble.com/shots/11069254-Ciach-Ciach/attachments/2666293?mode=media). The login/register screen design and the map view design are mine. 
+The design of this application is not mine, it is from a design created on [dribbble](https://dribbble.com/shots/11069254-Ciach-Ciach/attachments/2666293?mode=media). The login/register screen design and the map view design are mine. 
 
 
 ## Login 
@@ -14,7 +14,7 @@ to the graphql login mutation.
 - [ ] Display a message if the login was not successful. 
 
 <p align="middle">
-<img src="./display_images/login_screen.png" width="50%" align="middle" />
+<img src="./display_images/login.png" width="50%" />
 </p>
 
 ## Shops
