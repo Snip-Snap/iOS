@@ -49,6 +49,6 @@ actionsheet for all barbers at a shop.
 
 
 <p float="left">
-	<img src="./display_images/appt.png" width="50%" />
-	<img src="./display_images/appt2.png" width="50%" />
+	<img src="./display_images/appt.png" width="45%" />
+	<img src="./display_images/appt2.png" width="45%" />
 </p>
