@@ -26,6 +26,21 @@ Second, I sort the shop data by distance by default then reload the tableview.
 Last, I setup the tabbar at the bottom so that it displays which bar we are on.
 
 - [ ] Connect the tabbar items to their respective screens.
+- [ ] Make the search bar work.
+- [ ] add additional filters.
 
 ![Shops](./display_images/shops.png) 
 
+## Appointments 
+
+This was the toughest screen to make and the messiest because there are a lot of parts to it. 
+It contains two collection views, two views that are clickable, and a few labels and buttons.
+One view navigates to a tableview screen and the other is an actionsheet which should be converted to a
+tableview but for this project since we don't have a lot of barbers I thought it was best to create an
+actionsheet for all barbers at a shop.
+
+- [ ] Try adding a tabbar at the bottom if it doesn't look good remove it.
+- [ ] Refactor the code because it is all over the place. 
+- [ ] Add navigation to another screen when the appointment is successfully created. 
+
+![appt](./display_images/appt.png)
